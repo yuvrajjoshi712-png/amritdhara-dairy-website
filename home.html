@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>अमृतधारा दुग्धवाटिका | होम</title>
+  <meta name="description" content="अमृतधारा दुग्धवाटिका से शुद्ध, ताज़ा और पौष्टिक दूध सीधे आपके घर तक।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="home.html">🐄 अमृतधारा दुग्धवाटिका</a>
+      <nav class="nav-links">
+        <a class="active" href="home.html">होम</a>
+        <a href="about.html">हमारे बारे में</a>
+        <a href="products.html">उत्पाद</a>
+        <a href="contact.html">संपर्क</a>
+        <a href="language.html">Language</a>
+      </nav>
+      <a class="btn btn-primary" href="#subscription-form">दूध ऑर्डर करें</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">शुद्ध • स्वच्छ • ताज़ा डिलीवरी</p>
+          <h1>आपके परिवार के लिए फार्म से ताज़ा दूध</h1>
+          <p class="lead">अमृतधारा दुग्धवाटिका में हम नैतिक डेयरी पालन, स्वच्छ दुग्ध निकासी और फार्म-टू-होम डिलीवरी के साथ पौष्टिक और भरोसेमंद दूध उपलब्ध कराते हैं।</p>
+          <div class="actions">
+            <a href="#subscription-form" class="btn btn-primary">दूध ऑर्डर करें</a>
+            <a href="https://wa.me/919584051815?text=नमस्ते%20अमृतधारा,%20मुझे%20दूध%20ऑर्डर%20करना%20है" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">व्हाट्सऐप ऑर्डर</a>
+            <a href="tel:+919584051815" class="btn btn-secondary">अभी कॉल करें</a>
+          </div>
+        </div>
+        <img class="hero-image" src="images/hero-farm.svg" alt="अमृतधारा डेयरी फार्म" />
+      </div>
+    </section>
+
+    <section class="section" id="farm-photos">
+      <div class="container">
+        <h2>फार्म फ़ोटो</h2>
+        <p class="lead">यहाँ फ़ोटो अब दिखेंगी क्योंकि हमने सही <code>&lt;img&gt;</code> टैग का उपयोग किया है। अपनी वास्तविक फ़ोटो <code>images/</code> फ़ोल्डर में रखकर इन्हें आसानी से बदलें।</p>
+        <div class="cards">
+          <article class="card">
+            <img class="photo" src="images/farm-1.svg" alt="फार्म फोटो 1" />
+            <p>फार्म का बाहरी दृश्य</p>
+          </article>
+          <article class="card">
+            <img class="photo" src="images/farm-2.svg" alt="फार्म फोटो 2" />
+            <p>स्वस्थ गायें और भैंसें</p>
+          </article>
+          <article class="card">
+            <img class="photo" src="images/farm-3.svg" alt="फार्म फोटो 3" />
+            <p>स्वच्छ दुग्ध निकासी और डिलीवरी</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="subscription-form">
+      <div class="container">
+        <h2>दूध सब्सक्रिप्शन फॉर्म</h2>
+        <p>अपनी पसंद का प्लान और उत्पाद चुनें।</p>
+        <div class="form-card">
+          <form action="#" method="post">
+            <label for="name">पूरा नाम</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="phone">मोबाइल नंबर</label>
+            <input id="phone" name="phone" type="tel" required />
+
+            <label for="plan">सब्सक्रिप्शन प्लान</label>
+            <select id="plan" name="plan" required>
+              <option value="">प्लान चुनें</option>
+              <option>दैनिक दूध डिलीवरी</option>
+              <option>एक दिन छोड़कर डिलीवरी</option>
+              <option>साप्ताहिक डिलीवरी</option>
+              <option>मासिक सब्सक्रिप्शन</option>
+            </select>
+
+            <label for="product">उत्पाद प्रकार</label>
+            <select id="product" name="product" required>
+              <option value="">उत्पाद चुनें</option>
+              <option>फार्म फ्रेश दूध</option>
+              <option>देसी गाय का A2 दूध</option>
+              <option>फार्म फ्रेश घी</option>
+            </select>
+
+            <label for="quantity">मात्रा (लीटर)</label>
+            <input id="quantity" name="quantity" type="number" min="1" step="1" required />
+
+            <label for="address">डिलीवरी पता</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+
+            <div class="actions">
+              <button class="btn btn-primary" type="submit">सब्सक्रिप्शन अनुरोध भेजें</button>
+              <a class="btn btn-whatsapp" href="https://wa.me/919584051815?text=नमस्ते%20अमृतधारा,%20मुझे%20दूध%20सब्सक्रिप्शन%20चाहिए" target="_blank" rel="noopener noreferrer">व्हाट्सऐप ऑर्डर लिंक</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>अमृतधारा दुग्धवाटिका</strong> — शुद्ध दूध, ईमानदार खेती।</p>
+      <div class="socials">
+        <a href="https://wa.me/919584051815" target="_blank" rel="noopener noreferrer">व्हाट्सऐप</a>
+        <a href="tel:+919584051815">फोन</a>
+        <a href="https://maps.app.goo.gl/zELPRGbYC4CQBDwD8" target="_blank" rel="noopener noreferrer">गूगल मैप</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

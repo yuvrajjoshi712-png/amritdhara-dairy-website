@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Farm hero illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d9f0ff"/>
+      <stop offset="100%" stop-color="#f8fdff"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9fd39f"/>
+      <stop offset="100%" stop-color="#5ea066"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <circle cx="980" cy="110" r="60" fill="#ffe08a"/>
+  <rect y="350" width="1200" height="250" fill="url(#ground)"/>
+  <rect x="760" y="250" width="220" height="160" rx="8" fill="#e9f1e8" stroke="#4e6f4e"/>
+  <polygon points="740,260 870,180 1000,260" fill="#c55d3a"/>
+  <rect x="830" y="320" width="50" height="90" fill="#87543c"/>
+  <ellipse cx="320" cy="380" rx="140" ry="70" fill="#fff" stroke="#555" stroke-width="3"/>
+  <circle cx="390" cy="340" r="35" fill="#fff" stroke="#555" stroke-width="3"/>
+  <circle cx="400" cy="335" r="4" fill="#111"/>
+  <ellipse cx="295" cy="380" rx="30" ry="24" fill="#222"/>
+  <ellipse cx="350" cy="395" rx="35" ry="20" fill="#222"/>
+  <text x="40" y="80" font-size="48" font-family="Inter, Arial, sans-serif" fill="#22522f" font-weight="700">Amritdhara DugdhaVatika</text>
+  <text x="40" y="130" font-size="28" font-family="Inter, Arial, sans-serif" fill="#2d6a3a">Pure Milk • Honest Farming • Delivered Fresh</text>
+</svg>

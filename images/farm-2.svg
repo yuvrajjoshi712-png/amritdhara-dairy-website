@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Farm photo placeholder 2">
+  <rect width="800" height="500" fill="#e8f1ff"/>
+  <rect y="320" width="800" height="180" fill="#93b2d3"/>
+  <circle cx="180" cy="270" r="80" fill="#ffffff" stroke="#537091"/>
+  <circle cx="260" cy="250" r="45" fill="#ffffff" stroke="#537091"/>
+  <text x="50" y="70" font-size="38" font-family="Inter, Arial" fill="#26496b" font-weight="700">Healthy Cattle</text>
+  <text x="50" y="115" font-size="24" font-family="Inter, Arial" fill="#2d5a86">Replace with your real photo</text>
+</svg>

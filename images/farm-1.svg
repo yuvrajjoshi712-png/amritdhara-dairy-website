@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Farm photo placeholder 1">
+  <rect width="800" height="500" fill="#eaf5ea"/>
+  <rect y="300" width="800" height="200" fill="#7bb27f"/>
+  <rect x="120" y="200" width="180" height="120" fill="#f4f7f3" stroke="#648a69"/>
+  <polygon points="100,210 210,140 320,210" fill="#bf623f"/>
+  <text x="50" y="70" font-size="38" font-family="Inter, Arial" fill="#1f5130" font-weight="700">Farm Exterior</text>
+  <text x="50" y="115" font-size="24" font-family="Inter, Arial" fill="#2c6640">Replace with your real photo</text>
+</svg>
